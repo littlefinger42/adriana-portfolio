@@ -19,7 +19,9 @@ const IndexPage = () => (
       <Header/>
       <div style={{flexBasis: '50%'}}>
         <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, }}>
-          <img src="https://www.fillmurray.com/640/640"></img>
+          <Fade duration={2000}>
+            <img src="https://www.fillmurray.com/640/640"></img>
+          </Fade>
           {/* <Image /> */}
         </div>
       </div>
