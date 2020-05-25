@@ -7,6 +7,9 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       marginBottom: `1.45rem`,
+      position: 'absolute',
+      top: 0,
+      width: '100%',
     }}
   >
     <div
@@ -16,16 +19,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <h1 style={{ margin: 0 }}>our health is our most precious possession</h1>
     </div>
   </header>
 )
