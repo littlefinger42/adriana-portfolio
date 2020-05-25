@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Fade } from 'react-awesome-reveal';
 
 import "./main.css"
 
@@ -23,8 +24,10 @@ const IndexPage = () => (
         </div>
       </div>
       <div style={{flexBasis: '50%'}}>
-        <h1>Adriana Valente Stout</h1>
-        <h2>Sustainable Innovater</h2>
+        <Fade duration={2000}>
+          <h1>Adriana Valente Stout</h1>
+          <h2>Sustainable Innovater</h2>
+        </Fade>
       </div>
       <div style={{position: 'absolute', bottom: '10%'}}>
         <Scrolldown/>
@@ -32,8 +35,10 @@ const IndexPage = () => (
       <Footer/>
     </Page>
     <Page>
-      <div>Other content</div>
-      <div>Other content</div>
+      <Fade duration={2000}>
+        <div>Other content</div>
+        <div>Other content</div>
+      </Fade>
     </Page>
   </Layout>
 )
